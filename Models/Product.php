@@ -16,4 +16,9 @@ class Product
         $this->image = $image;
         $this->category = $category;
     }
+
+    public function getPrice($price)
+    {
+        return $this->price . '€';
+    }
 }
