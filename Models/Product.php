@@ -17,7 +17,7 @@ class Product
         $this->category = $category;
     }
 
-    public function getPrice($price)
+    public function getPrice()
     {
         return $this->price . '€';
     }

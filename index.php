@@ -40,7 +40,7 @@ $products = [$crocchette, $snack];
                                 <p class="card-text"> <?= $product->description ?></p>
                             </div>
                             <ul class="list-group list-group-flush">
-                                <li class="list-group-item"> <strong> Prezzo: </strong> <?= $product->getPrice($product->price) ?></li>
+                                <li class="list-group-item"> <strong> Prezzo: </strong> <?= $product->getPrice() ?></li>
                                 <li class="list-group-item"> <strong> Peso: </strong> <?= $product->peso ?></li>
                             </ul>
                             <div class="card-body d-flex align-items-center justify-content-between">
